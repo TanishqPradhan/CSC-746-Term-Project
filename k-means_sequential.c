@@ -255,12 +255,8 @@ int main()
     printf("1 for 10000 datapoints\n");
     printf("2 for 50000 datapoints\n");
     printf("3 for 100000 datapoints\n");
-    printf("4 for 200000 datapoints\n");
-    printf("5 for 400000 datapoints\n");
-    printf("6 for 500000 datapoints\n");
-    printf("7 for 600000 datapoints\n");
-    printf("8 for 800000 datapoints\n");
-    printf("9 for 1000000 datapoints\n");
+    printf("4 for 500000 datapoints\n");
+    printf("5 for 1000000 datapoints\n");
     printf("\nEnter the number of dataset file to input: ");
 
     int x;
@@ -280,21 +276,9 @@ int main()
         dataset_filename = "dataset-100000.txt";
         break;
     case 4:
-        dataset_filename = "dataset-200000.txt";
-        break;
-    case 5:
-        dataset_filename = "dataset-400000.txt";
-        break;
-    case 6:
         dataset_filename = "dataset-500000.txt";
         break;
-    case 7:
-        dataset_filename = "dataset-600000.txt";
-        break;
-    case 8:
-        dataset_filename = "dataset-800000.txt";
-        break;
-    case 9:
+    case 5:
         dataset_filename = "dataset-1000000.txt";
         break;
     default:
